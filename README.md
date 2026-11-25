@@ -1,14 +1,13 @@
-# Student Performance Classification using Machine Learning and Dimensionality Reduction
+# Student Performance Classification with ML & PCA
 
-A machine learning and pattern recognition project predicting student academic performance (`GradeClass`) on a dataset of over 30,000 records, evaluating the impact of dimensionality reduction techniques.
+A machine learning project focused on classifying student performance and applying Principal Component Analysis (PCA) for dimensionality reduction.
 
-## Overview & Methodology
-- **Preprocessing:** Handled missing values, encoded categorical features, split data (80% train / 20% test), and applied feature scaling.
-- **Models:** Compared **Random Forest** and **Logistic Regression**.
-- **Dimensionality Reduction:** Tested models across three setups:
-  1. All features (Baseline)
-  2. **PCA** (Principal Component Analysis)
-  3. **Feature Selection** (Chi-Square)
-- **Hyperparameter Tuning:** Tuned Random Forest (`n_estimators`: 50, 100, 150) using Grid Search.
-- **Evaluation:** Evaluated using Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
+## Project Type & Contribution
+- **Team Project:** Completed collaboratively within a team, contributing to data preprocessing, modeling, dimensionality reduction, or evaluation.
 
+## Tech Stack
+- Python, Scikit-learn, Pandas, NumPy, PCA
+
+## Key Highlights
+- Exploratory analysis and preprocessing of student performance data.
+- Dimensionality reduction via PCA paired with classification models.
